@@ -1,0 +1,82 @@
+body{
+	font-family: 'Nunito', sans-seriff !important;
+}
+
+.blue{
+	background: linear-gradient(to right, #7f00ff, #e100ff) !important;
+	color: white;
+	border: none !important;
+}
+
+.grey{
+	background: grey!important;
+	color: white;
+	
+	border: none !important;
+}
+
+.ch_position{
+	position: absolute;
+	top :50%;
+	left :50%;
+	transform: translate(-50%,50%);
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: no-border;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+	
+}
+
+table#t01 tr:nth-child(even) {
+    border-bottom-color: white;
+} 
+/* table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+} */
+table#t01 th	{
+    background-color: grey;
+    color: white;
+}
+
+table#t01 caption	{
+    caption-side: top;
+    color: black;
+}
+
+
+header {
+    background-color:grey;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+#foot{
+	position:absolute;
+	width:100%;
+	bottom:2px;
+    background-color:grey;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:50px;
+}
+
+footer {
+	position:relative;
+	width:100%;
+	bottom:2px;
+    background-color:grey;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:50px;
+}
