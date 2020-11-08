@@ -45,7 +45,7 @@ if(isset($_POST['submit_btn']))
 		if($sql_insert)
 		{
 			echo"Success!!!!!!!!!";
-			header('location:home.php'); 
+			header('location:index.php'); 
 		}else{
 			echo"Fail!!!!!!!!!";
 			header('location:fill_in.php');
