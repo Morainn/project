@@ -5,7 +5,7 @@ require_once'connection.php';
 
 if(isset($_POST['ok_btn']))
 {
-	header('location:home.php'); 
+	header('location:index.php'); 
 }
 
 $ages = 0;
@@ -23,14 +23,15 @@ $tavg = 0;
 $radioavg = 0;
 $radavg = 0;
 
+$pizzapercentage = 0;
+$pastapercentage = 0;
+$pappercentage = 0;
 
 
 $query = $con->query("SELECT * FROM details") or die(mysqli_error());
 	while($fetch = $query->fetch_array()){
 		
-		$pizzapercentage = 0;
-		$pastapercentage = 0;
-		$pappercentage = 0;
+		
 		
 		$surveys = $fetch['id'];
 		$name=$fetch['name'];
